@@ -1,5 +1,17 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <ButtonsChallenges/>
   </div>
 </template>
+<script>
+import ButtonsChallenges from '@/components/ButtonsChallenges.vue'
+export default {
+  name: 'About',
+  components: {
+     ButtonsChallenges
+  }
+}
+</script>
+<style scoped>
+
+</style>
