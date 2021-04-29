@@ -112,11 +112,11 @@ export default {
             buttons16: ['btn btn-primary btn-block mx-1'],
             buttons17: ['btn btn-default btn-block mx-1'],
             buttons18: ['btn btn-secondary btn-block mx-1'],
-            buttons19:['btn btn-danger btn-block mx-1'],
-            buttons20:['btn btn-primary btn-block rounded mx-1'],
-            buttons21:['btn btn-default btn-block rounded mx-1'],
-            buttons22:['btn btn-secondary btn-block rounded mx-1'],
-            buttons23:['btn btn-danger btn-block rounded mx-1'],
+            buttons19: ['btn btn-danger btn-block mx-1'],
+            buttons20: ['btn btn-primary btn-block rounded mx-1'],
+            buttons21: ['btn btn-default btn-block rounded mx-1'],
+            buttons22: ['btn btn-secondary btn-block rounded mx-1'],
+            buttons23: ['btn btn-danger btn-block rounded mx-1'],
         }
     }
 }
@@ -124,5 +124,6 @@ export default {
 <style scoped>
 .ButtonChallenges{
     background-color: slategray;
+    height: 120vh;
 }
 </style>

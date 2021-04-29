@@ -1,13 +1,39 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <router-link to="/">
+          <label class="btn btn-outline-dark mx-1 my-1">
+            Home
+          </label>
+        </router-link>
+        <router-link to="/about">
+          <label class="btn btn-outline-dark mx-1 my-1">
+            ButtonsChallenges
+          </label>
+        </router-link>
+        <router-link to="/getout">
+          <label class="btn btn-outline-dark mx-1 my-1">
+            Info
+          </label>
+        </router-link>
+      </div>
+      <!--<router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>-->
     </div>
     <router-view/>
   </div>
 </template>
+<script>
+export default {
+  name: 'App',
+  data(){
+    return{
 
+    }
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -15,9 +41,11 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: slategray;
+  height: 105vh;
 }
 
-#nav {
+/*#nav {
   padding: 30px;
 }
 
@@ -28,5 +56,5 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
-}
+}*/
 </style>
